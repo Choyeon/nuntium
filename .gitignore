@@ -444,38 +444,4 @@ DerivedData/
 ## Gcc Patch
 /*.gcno
 
-将删除 .gitignore
-将删除 .idea/.gitignore
-将删除 .idea/codeStyles/
-将删除 .idea/inspectionProfiles/
-将删除 .idea/misc.xml
-将删除 .idea/modules.xml
-将删除 .idea/nuntium.iml
-将删除 .idea/vcs.xml
-将删除 Dockerfile
-将删除 Makefile
-将删除 Pipfile
-将删除 Pipfile.lock
-将删除 README.md
-将删除 app/__init__.py
-将删除 app/api/__init__.py
-将删除 app/api/routes/__init__.py
-将删除 app/api/routes/api.py
-将删除 app/api/routes/predictor.py
-将删除 app/core/__init__.py
-将删除 app/core/config.py
-将删除 app/core/errors.py
-将删除 app/core/events.py
-将删除 app/core/logging.py
-将删除 app/core/paginator.py
-将删除 app/main.py
-将删除 app/models/prediction.py
-将删除 app/services/predict.py
-将删除 azure-pipelines.yml
-将删除 docker-compose.yml
-将删除 egg.sh
-将删除 fuckjs
-将删除 ml/
-将删除 poetry.lock
-将删除 pyproject.toml
-将删除 tests/
+/.idea/*

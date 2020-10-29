@@ -1,0 +1,19 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.douban.com/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+fastapi = "*"
+requests = "*"
+autopep8 = "*"
+black = "==19.10b0"
+ipdb = "*"
+pydantic = "*"
+loguru = "*"
+joblib = "*"
+
+[requires]
+python_version = "3.9"
