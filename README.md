@@ -65,4 +65,3 @@ Application parts are:
     └── main.py          - FastAPI application creation and configuration.
     │
     tests                  - pytest
-# nuntium
