@@ -9,19 +9,23 @@ name = "ali"
 url = "https://mirrors.aliyun.com/pypi/simple/"
 
 [tool.poetry.dependencies]
-python = "^3.7"
+python = "^3.9"
 fastapi = "^0.45.0"
 uvicorn = "^0.11.1"
 pydantic = "^1.3"
 requests = "^2.22.0"
 loguru = "^0.4.0"
 joblib = "^0.15.1"
+sqlalchemy = "*"
+passlib = { extras = ["bcrypt"], version = "^1.7.2" }
+python-jose = { extras = ["cryptography"], version = "^3.1.0" }
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
 black = { version = "^19.10b0", allow-prereleases = true }
 autopep8 = "^1.4.4"
 ipdb = "^0.12.3"
+
 
 [build-system]
 requires = ["poetry>=0.12"]

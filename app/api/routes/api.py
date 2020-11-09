@@ -1,6 +1,8 @@
 from fastapi import APIRouter
 
-from app.api.routes import predictor
+from app.api.routes.endpoints import login, users, utils
 
-router = APIRouter()
-router.include_router(predictor.router, tags=["predictor"], prefix="/v1")
+api_router = APIRouter()
+api_router.include_router(login.router, tags=["login"])
+api_router.include_router(users.router, prefix="/users", tags=["users"])
+api_router.include_router(utils.router, prefix="/utils", tags=["utils"])
